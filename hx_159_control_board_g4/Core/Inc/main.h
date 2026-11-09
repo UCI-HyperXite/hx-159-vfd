@@ -57,10 +57,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define GYR_CS_Pin GPIO_PIN_7
-#define GYR_CS_GPIO_Port GPIOC
 #define XSHUT_Pin GPIO_PIN_4
-#define XSHUT_GPIO_Port GPIOB
+#define XSHUT_GPIO_Port GPIOA
+#define GYR_CS_Pin GPIO_PIN_10
+#define GYR_CS_GPIO_Port GPIOB
 #define ACC_CS_Pin GPIO_PIN_6
 #define ACC_CS_GPIO_Port GPIOB
 
